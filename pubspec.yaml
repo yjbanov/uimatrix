@@ -1,0 +1,18 @@
+name: uimatrix
+description: A vector math library optimized for 2D, but also supports 3D.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=3.1.0-232.0.dev <4.0.0'
+
+dependencies:
+  meta: ^1.9.1
+  benchmark_harness: ^2.2.2
+  # Production code does not depend on this package. It's only here to make it
+  # easier to embed benchmarks in different environments, such as Flutter apps.
+  vector_math: ^2.1.4
+
+dev_dependencies:
+  lints: ^2.1.1
+  test: ^1.24.4
